@@ -1,0 +1,19 @@
+{
+  "name": "assemble",
+  "version": "0.1.0",
+  "description": "Rethinking Coding riddles.",
+  "main": "index.ts",
+  "author": "Oussa<zaki.oussama@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ts-node": "^8.10.2",
+    "tsc": "^1.20150623.0",
+    "typescript": "^3.9.7"
+  },
+  "dependencies": {
+    "@types/node": "^14.0.27"
+  },
+  "scripts": {
+    "solve": "ts-node mike.ts"
+  }
+}
